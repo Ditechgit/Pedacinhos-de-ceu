@@ -25,9 +25,9 @@ function App() {
           </ul>
         </nav>
       </header>
-      <main className="grid grid-cols-2">
+      <main className="grid grid-cols-2 justify-self-center">
         <section className="">
-          <div>
+          <div className="">
             <p className="">eBook Gratis</p>
             <h2 className="">
               Receitas de Cookie: 34 ideias para qualquer negócio
