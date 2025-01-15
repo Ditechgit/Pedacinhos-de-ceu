@@ -3,29 +3,29 @@ import Logo from "./components/Logo";
 
 function App() {
   return (
-    <div className="m-0 p-0 box-border">
-      <header className="flex justify-around items-center">
+    <div className="m-0 p-0 box-border list-none">
+      <header className="flex justify-between items-center flex-wrap p-5">
         <div>
           <Logo />
         </div>
         <nav>
-          <ul className="flex gap-20">
-            <li>
-              <a href="#">Home</a>
+          <ul className="flex">
+            <li className="ml-2.5">
+              <a className="block p-2.5" href="#">Home</a>
             </li>
-            <li>
-              <a href="#">Serviços</a>
+            <li className="ml-2.5">
+              <a className="block p-2.5" href="#">Serviços</a>
             </li>
-            <li>
-              <a href="#">Sobre</a>
+            <li className="ml-2.5">
+              <a className="block p-2.5" href="#">Sobre</a>
             </li>
-            <li>
-              <a href="#">Contato</a>
+            <li className="ml-2.5">
+              <a className="block p-2.5" href="#">Contato</a>
             </li>
           </ul>
         </nav>
       </header>
-      <main className="grid grid-cols-2 justify-self-center">
+      <main className="grid grid-cols-2 gap-5 max-w-7xl my-0 mx-auto items-center">
         <section className="">
           <div className="">
             <p className="">eBook Gratis</p>
@@ -45,7 +45,7 @@ function App() {
             </p>
           </div>
         </section>
-        <section className="">
+        <section className="grid justify-center">
           <Cookie />
         </section>
         <section>
