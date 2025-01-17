@@ -62,16 +62,16 @@ function App() {
         </section>
         <section className="grid justify-center px-7">
           {/*Aqui fica a primeira parte depois do header*/}
-          <div>
-            <h2>Aqui terá um subtitulo para enfase do produto</h2>
-            <ul>
-              <li>Primeira Ideia Introdutoria</li>
-              <li>Segunda Ideia Introdutoria</li>
-              <li>Terceira Ideia Introdutoria</li>
+          <div className="grid">
+            <h2 className="text-4xl mb-2.5 mt-6 break-words">Aqui terá um subtitulo para enfase do produto</h2>
+            <ul className="mt-6 mb-14 break-words">
+              <li className="mb-2 pl-6 text-lg">Primeira Ideia Introdutoria</li>
+              <li className="mb-2 pl-6 text-lg">Segunda Ideia Introdutoria</li>
+              <li className="mb-2 pl-6 text-lg">Terceira Ideia Introdutoria</li>
             </ul>
           </div>
         </section>
-        <section className="flex flex-col justify-center border p-7 mt-7 mb-12 max-w-md self-center">
+        <section className="grid place-content-center border p-7 mt-7 mb-12 max-w-md self-center bg-slate-500 rounded-md">
           <div>
             <h3 className="text-2xl font-bold">Seu acesso é grátis e rápido!</h3>
           </div>
