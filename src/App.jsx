@@ -4,7 +4,7 @@ import Logo from "./components/Logo";
 function App() {
   return (
     <div className="m-0 p-0 box-border list-none">
-      <header className="flex justify-between items-center flex-wrap p-5 ">
+      <header className="flex justify-around items-center flex-wrap p-5 ">
         <div>
           <Logo />
         </div>
@@ -73,7 +73,7 @@ function App() {
             </ul>
           </div>
         </section>
-        <section className="grid place-content-center border p-7 mt-7 mb-12 max-w-md self-center bg-slate-500 rounded-md">
+        <section className="grid border my-0 mx-auto items-center p-7 mt-12 mb-12 max-w-md self-center bg-slate-500 rounded-md">
           <div>
             <h3 className="text-2xl font-bold">
               Seu acesso é grátis e rápido!
