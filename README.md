@@ -1,8 +1,12 @@
-# React + Vite
+Este projeto tem como intuito, mostrar meu entendimento sobre React.js, criação sobre components, utilização de hooks (useState e useEffect), grid-box em conjunto com flex-box, responsividade entre telas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tecnologias usadas:
 
-Currently, two official plugins are available:
+React.js - Aonde foi aprimorado mais meu conhecimento em semântica do HTML, e maior entendimento sobre o JavaScript.
+Tailwind.css - Aonde aprendi a mexer com grid-box, e obtive maior facilidade em responsividade e estilização do projeto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+Dificuldades:
+
+1 - Foi dificil alinhar os conteudos ao centro na segunda coluna dos elementos do grid-box mas foi resolvido com alguns estudos.
