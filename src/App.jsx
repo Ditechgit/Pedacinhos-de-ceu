@@ -63,7 +63,9 @@ function App() {
         <section className="grid justify-center px-7">
           {/*Aqui fica a primeira parte depois do header*/}
           <div className="grid">
-            <h2 className="text-4xl mb-2.5 mt-6 break-words">Aqui terá um subtitulo para enfase do produto</h2>
+            <h2 className="text-4xl mb-2.5 mt-6 break-words">
+              Aqui terá um subtitulo para enfase do produto
+            </h2>
             <ul className="mt-6 mb-14 break-words">
               <li className="mb-2 pl-6 text-lg">Primeira Ideia Introdutoria</li>
               <li className="mb-2 pl-6 text-lg">Segunda Ideia Introdutoria</li>
@@ -73,7 +75,9 @@ function App() {
         </section>
         <section className="grid place-content-center border p-7 mt-7 mb-12 max-w-md self-center bg-slate-500 rounded-md">
           <div>
-            <h3 className="text-2xl font-bold">Seu acesso é grátis e rápido!</h3>
+            <h3 className="text-2xl font-bold">
+              Seu acesso é grátis e rápido!
+            </h3>
           </div>
           <div>
             <p>Preencha em segundos</p>
@@ -82,7 +86,9 @@ function App() {
             <form action="">
               <div>
                 <div className="grid">
-                  <label className="mb-1" htmlFor="">Nome*</label>
+                  <label className="mb-1" htmlFor="">
+                    Nome*
+                  </label>
                   <input
                     className="border-2 border-black rounded-md px-2 mb-4"
                     type="text"
@@ -92,7 +98,9 @@ function App() {
                   />
                 </div>
                 <div className="grid">
-                  <label className="mb-1" htmlFor="">Email*</label>
+                  <label className="mb-1" htmlFor="">
+                    Email*
+                  </label>
                   <input
                     className="border-2 border-black rounded-md px-2 mb-4"
                     type="email"
@@ -102,7 +110,9 @@ function App() {
                   />
                 </div>
                 <div className="grid">
-                  <label className="mb-1" htmlFor="">Empresa*</label>
+                  <label className="mb-1" htmlFor="">
+                    Empresa*
+                  </label>
                   <input
                     className="border-2 border-black rounded-md px-2 mb-4"
                     type="text"
@@ -112,7 +122,9 @@ function App() {
                   />
                 </div>
                 <div className="grid">
-                  <label className="mb-1" htmlFor="">1 + 7 = ?</label>
+                  <label className="mb-1" htmlFor="">
+                    1 + 7 = ?
+                  </label>
                   <input
                     className="border-2 border-black rounded-md px-2 mb-4"
                     type="text"
@@ -123,7 +135,9 @@ function App() {
                 </div>
               </div>
               <div className="grid font-bold ">
-                <button className="mt-4 py-px px-2.5 border-2 border-black rounded-md">BAIXE GRÁTIS AGORA</button>
+                <button className="mt-4 py-px px-2.5 border-2 border-black rounded-md">
+                  BAIXE GRÁTIS AGORA
+                </button>
               </div>
             </form>
           </div>
@@ -142,11 +156,16 @@ function App() {
           </div>
         </section>
 
-        <section> {/*Aqui fica a segunda parte depois do header*/}</section>
+        <section>
+          {/*Aqui fica a segunda parte depois do header*/}
+          <div className="grid font-bold ">
+            <h4>Duvidas frequentes</h4>
+          </div>
+        </section>
 
         <section> {/*Aqui fica a terceira parte depois do header*/}</section>
       </main>
-      <footer className="">
+      <footer className="flex justify-center p-7 bg-slate-500 text-white">
         <h4>
           Copyright &copy; 2025 Pedacinhos de Céu - Política de Privacidade
         </h4>
