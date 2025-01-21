@@ -1,4 +1,5 @@
 import Cookie from "./components/Cookie";
+import Img1 from "./components/Img1";
 import Logo from "./components/Logo";
 
 function App() {
@@ -156,14 +157,19 @@ function App() {
           </div>
         </section>
 
-        <section>
+        <section className="grid border my-0 mx-auto items-center p-7 mt-12 mb-12 max-w-md self-center bg-slate-500 rounded-md">
           {/*Aqui fica a segunda parte depois do header*/}
-          <div className="grid font-bold ">
-            <h4>Duvidas frequentes</h4>
+          <div>
+            <Img1 />
           </div>
         </section>
 
-        <section> {/*Aqui fica a terceira parte depois do header*/}</section>
+        <section className="grid border my-0 mx-auto items-center p-7 mt-12 mb-12 max-w-md self-center bg-slate-500 rounded-md">
+          {/*Aqui fica a terceira parte depois do header*/}
+          <div className="text-white">
+            <h4>O que você vai ver:</h4>
+          </div>
+        </section>
       </main>
       <footer className="flex justify-center p-7 bg-slate-500 text-white">
         <h4>
