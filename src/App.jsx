@@ -35,6 +35,7 @@ function App() {
         </nav>
       </header>
       <main className="grid grid-cols-2 gap-5 max-w-7xl my-0 mx-auto items-center">
+        
         <section className="grid justify-center bg-gradient-to-r from-slate-500 rounded-md ">
           <div className="my-8 px-7">
             <p className="mt-4 text-xl">eBook Grátis</p>
@@ -157,16 +158,16 @@ function App() {
           </div>
         </section>
 
-        <section className="grid border my-0 mx-auto items-center p-7 mt-12 mb-12 max-w-md self-center bg-slate-500 rounded-md">
+        <section className="grid my-0 mx-auto items-center p-7 mt-12 mb-12 max-w-md self-center bg-gradient-to-r from-slate-500 rounded-md">
           {/*Aqui fica a segunda parte depois do header*/}
-          <div>
+          <div className="">
             <Img1 />
           </div>
         </section>
 
-        <section className="grid border my-0 mx-auto items-center p-7 mt-12 mb-12 max-w-md self-center bg-slate-500 rounded-md">
+        <section className="">
           {/*Aqui fica a terceira parte depois do header*/}
-          <div className="text-white">
+          <div className="">
             <h4>O que você vai ver:</h4>
           </div>
         </section>
