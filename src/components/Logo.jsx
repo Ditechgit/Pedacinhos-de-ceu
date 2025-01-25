@@ -1,4 +1,4 @@
-import logo from "../assets/pdc.svg";
+import logo from "../assets/pedacinhos-de-ceu.svg";
 
 function Logo() {
   return (

@@ -35,7 +35,7 @@ function App() {
         </nav>
       </header>
       <main className="grid grid-cols-1 gap-5 max-w-7xl my-0 mx-auto items-center">
-        <section className="grid grid-cols-2 justify-center bg-gradient-to-r from-slate-500 rounded-md text-slate-100 ">
+        <section className="grid grid-cols-2 justify-center bg-gradient-to-r from-slate-500 from-50% rounded-md text-slate-100 ">
           <div className="my-8 px-7">
             <p className="mt-4 text-xl">eBook Grátis</p>
             <h1 className="text-4xl">
@@ -48,7 +48,7 @@ function App() {
             </p>
             <div className="grid justify-center mt-8 mb-16 p-7 ">
               <button className="border-2 border-slate-100 rounded-md">
-                <a className="block p-2.5 my-2.5" href="#">
+                <a className="block p-2.5 my-2.5 font-bold" href="#">
                   Baixe Grátis o eBook
                 </a>
               </button>
@@ -65,14 +65,24 @@ function App() {
         <section className="grid grid-cols-2">
 
           {/*Aqui fica a primeira parte depois do header*/}
-          <div className="grid justify-center items-center px-7">
+          <div className="grid content-center items-end px-7">
             <h2 className="text-4xl mb-2.5 mt-6 break-words">
-              Aqui terá um subtitulo para enfase do produto
+              Exemplos de Landing Pages para impulsionar sua estratégia com
+              cookies irresistíveis:
             </h2>
-            <ul className="mt-6 mb-14 break-words">
-              <li className="mb-2 pl-6 text-lg">Primeira Ideia Introdutoria</li>
-              <li className="mb-2 pl-6 text-lg">Segunda Ideia Introdutoria</li>
-              <li className="mb-2 pl-6 text-lg">Terceira Ideia Introdutoria</li>
+            <ul className="mb-14 break-words mt-8">
+              <li className="mb-2 pl-6 text-lg">
+                Varejo: Mostre uma seleção irresistível de cookies com fotos
+                tentadoras, preços atrativos e botões de (Comprar Agora).
+              </li>
+              <li className="mb-2 pl-6 text-lg">
+                Serviços personalizados: Ofereça cookies sob encomenda para
+                eventos, com depoimentos e um cálculo de pedidos fácil.
+              </li>
+              <li className="mb-2 pl-6 text-lg">
+                Promoções sazonais: Destaque ofertas especiais para datas
+                comemorativas com contagem regressiva e descontos exclusivos.
+              </li>
             </ul>
           </div>
 
@@ -161,14 +171,37 @@ function App() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-md self-center bg-gradient-to-r from-slate-500 rounded-md size-max">
-          {/*Aqui fica a segunda parte depois do header*/}
-          <div className="">
-            <Img1 />
+        <section className="">
+          <div className="grid grid-cols-2 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center bg-gradient-to-r from-white to-slate-500 to-50% rounded-md pb-20">
+            {/*Aqui fica a segunda parte depois do header*/}
+            <div className="">
+              <Img1 />
+            </div>
+            {/*Aqui fica a terceira parte depois do header*/}
+            <div className="my-0 mx-auto text-white">
+              <h4>O que você vai ver:</h4>
+              <ul>
+                <li>
+                  34 Exemplos de Landing Pages para vender cookies irresistíveis
+                </li>
+                <li>Ferramentas para criar Landing Pages de doces eficazes</li>
+                <li>
+                  Layout ✔️ Estratégia ✔️ Distribuição ✔️ focados no mundo dos
+                  cookies
+                </li>
+                <li>
+                  Dicas de cores, textos e vídeos para destacar seus produtos
+                </li>
+                <li>
+                  Modelos de Landing Pages adaptados para varejo, eventos e
+                  promoções sazonais!
+                </li>
+              </ul>
+            </div>
           </div>
-          {/*Aqui fica a terceira parte depois do header*/}
-          <div className="my-0 mx-auto">
-            <h4>O que você vai ver:</h4>
+
+          <div className="grid font-bold mx-20 -mt-28 mb-40">
+            <button className="mt-4 py-px my-0 mx-auto px-2.5 border-2 border-slate-100 rounded-md text-white ">BAIXE GRÁTIS AGORA</button>
           </div>
         </section>
       </main>
