@@ -63,7 +63,6 @@ function App() {
         </section>
 
         <section className="grid grid-cols-2">
-
           {/*Aqui fica a primeira parte depois do header*/}
           <div className="grid content-center items-end px-7">
             <h2 className="text-4xl mb-2.5 mt-6 break-words">
@@ -200,8 +199,124 @@ function App() {
             </div>
           </div>
 
-          <div className="grid font-bold mx-20 -mt-28 mb-40">
-            <button className="mt-4 py-px my-0 mx-auto px-2.5 border-2 border-slate-100 rounded-md text-white ">BAIXE GRÁTIS AGORA</button>
+          <div className="grid font-bold justify-center -mt-28 mb-8">
+            <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white ">
+              BAIXE GRÁTIS AGORA
+            </button>
+          </div>
+        </section>
+
+        <section className="flex flex-col items-center mb-28 px-7">
+          <h2 className="text-4xl mb-20 mt-6 break-words font-bold">
+            Duvidas Frequentes:
+          </h2>
+          <div className="grid grid-cols-2">
+            <div className="grid gap-8 px-7">
+              <div className="">
+                <h5 className="font-bold mb-2">O que é uma Landing Page?</h5>
+                <p>
+                  Uma Landing Page, ou página de captura, é uma página criada
+                  especificamente para conversão, transformando visitantes em
+                  clientes. Diferente de um site comum, ela tem o objetivo de
+                  destacar uma oferta específica, como deliciosos cookies
+                  artesanais.
+                </p>
+                <p>
+                  Os exemplos de Landing Pages que trazemos aqui são perfeitos
+                  para campanhas de Marketing Digital voltadas à venda de
+                  cookies e têm altas taxas de conversão.
+                </p>
+              </div>
+
+              <div className="">
+                <h5 className="font-bold mb-2">Para que serve uma Landing Page?</h5>
+                <p>
+                  Uma Landing Page serve para apresentar sua oferta de cookies
+                  de maneira irresistível aos visitantes do seu site. Isso
+                  facilita a transformação de visitantes em clientes ao capturar
+                  informações essenciais e incentivá-los a realizar a compra.
+                </p>
+              </div>
+
+              <div className="">
+                <h5 className="font-bold mb-2">Quais são os principais elementos de uma Landing Page?</h5>
+                <p>
+                  Os principais elementos que uma Landing Page de cookies deve
+                  ter são:
+                </p>
+                <ul className="px-4">
+                  <li>
+                    Título e subtítulo: Destaque o sabor e a exclusividade dos
+                    seus cookies.
+                  </li>
+                  <li>
+                    Imagens: Fotos de alta qualidade que despertem o apetite.
+                  </li>
+                  <li>
+                    Descrição da oferta: Explique o que torna seus cookies
+                    únicos (ingredientes, receitas artesanais, opções veganas,
+                    etc.).
+                  </li>
+                  <li>
+                    Formulário: Para coleta de informações de clientes
+                    interessados.
+                  </li>
+                  <li>
+                    CTA: Botões chamativos como “Compre Agora” ou “Experimente
+                    nossos Cookies”.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="grid gap-8 px-7">
+              <div className="">
+                <h5 className="font-bold mb-2">
+                  Por que usar nossos exemplos de Landing Pages para vender
+                  cookies?
+                </h5>
+                <p>
+                  Além de oferecer exemplos adaptáveis para diversos estilos e
+                  públicos, nosso material inclui dicas de especialistas sobre:
+                </p>
+                <ul className="px-4">
+                  <li>Combinações de cores que estimulam o apetite.</li>
+                  <li>Posicionamento estratégico de imagens e CTAs.</li>
+                  <li>
+                    Técnicas de copywriting para convencer o cliente a comprar
+                    seus cookies.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="">
+                <h5 className="font-bold mb-2">Como criar uma Landing Page para venda de cookies?</h5>
+                <p>
+                  Você pode economizar tempo e aumentar sua produtividade usando
+                  ferramentas que tornam a criação de Landing Pages simples e
+                  rápida. Com o Pedacinhos de Céu, você pode criar Landing Pages
+                  encantadoras em poucos minutos para destacar seus cookies.
+                </p>
+              </div>
+
+              <div>
+                <h5 className="font-bold mb-2">
+                  Por que o Pedacinhos de Céu facilita a criação de Landing
+                  Pages para cookies?
+                </h5>
+                <p>
+                  Com mais de 120 templates customizáveis, o Pedacinhos de Céu
+                  permite que você arraste e solte elementos para criar uma
+                  página única. Isso significa que você pode criar uma Landing
+                  Page incrível para os seus cookies sem se preocupar com design
+                  ou código.
+                </p>
+                <p>
+                  Além disso, é fácil acompanhar os resultados e ajustar sua
+                  Landing Page para aumentar suas vendas de cookies!
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </main>
