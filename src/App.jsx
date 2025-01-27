@@ -171,7 +171,7 @@ function App() {
         </section>
 
         <section className="">
-          <div className="grid grid-cols-2 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center bg-gradient-to-r from-white to-slate-500 to-50% rounded-md pb-20">
+          <div className="grid grid-cols-2 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center bg-gradient-to-r from-white to-slate-500 to-50% rounded-md py-28">
             {/*Aqui fica a segunda parte depois do header*/}
             <div className="">
               <Img1 />
@@ -199,7 +199,7 @@ function App() {
             </div>
           </div>
 
-          <div className="grid font-bold justify-center -mt-28 mb-8">
+          <div className="grid font-bold justify-center -mt-32 mb-8">
             <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white ">
               BAIXE GRÁTIS AGORA
             </button>
@@ -229,7 +229,9 @@ function App() {
               </div>
 
               <div className="">
-                <h5 className="font-bold mb-2">Para que serve uma Landing Page?</h5>
+                <h5 className="font-bold mb-2">
+                  Para que serve uma Landing Page?
+                </h5>
                 <p>
                   Uma Landing Page serve para apresentar sua oferta de cookies
                   de maneira irresistível aos visitantes do seu site. Isso
@@ -239,7 +241,9 @@ function App() {
               </div>
 
               <div className="">
-                <h5 className="font-bold mb-2">Quais são os principais elementos de uma Landing Page?</h5>
+                <h5 className="font-bold mb-2">
+                  Quais são os principais elementos de uma Landing Page?
+                </h5>
                 <p>
                   Os principais elementos que uma Landing Page de cookies deve
                   ter são:
@@ -290,7 +294,9 @@ function App() {
               </div>
 
               <div className="">
-                <h5 className="font-bold mb-2">Como criar uma Landing Page para venda de cookies?</h5>
+                <h5 className="font-bold mb-2">
+                  Como criar uma Landing Page para venda de cookies?
+                </h5>
                 <p>
                   Você pode economizar tempo e aumentar sua produtividade usando
                   ferramentas que tornam a criação de Landing Pages simples e
@@ -318,6 +324,11 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="grid font-bold justify-center mt-10 mb-8">
+              <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-500 rounded-md text-black ">
+                BAIXE GRÁTIS AGORA
+              </button>
+            </div>
         </section>
       </main>
       <footer className="flex justify-center p-7 bg-slate-500 text-white">
