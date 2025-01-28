@@ -1,6 +1,8 @@
 import Cookie from "./components/Cookie";
 import Img1 from "./components/Img1";
 import Logo from "./components/Logo";
+import Check from "./components/Check";
+import Check1 from "./components/Check1";
 
 function App() {
   return (
@@ -47,7 +49,7 @@ function App() {
               finanças
             </p>
             <div className="grid justify-center mt-8 mb-16 p-7 ">
-              <button className="border-2 border-slate-100 rounded-md">
+              <button className="border-2 border-slate-100 rounded-md hover:bg-slate-400">
                 <a className="block p-2.5 my-2.5 font-bold" href="#">
                   Baixe Grátis o eBook
                 </a>
@@ -70,15 +72,18 @@ function App() {
               cookies irresistíveis:
             </h2>
             <ul className="mb-14 break-words mt-8">
-              <li className="mb-2 pl-6 text-lg">
+              <li className="flex mb-2 text-lg">
+                <Check />
                 Varejo: Mostre uma seleção irresistível de cookies com fotos
                 tentadoras, preços atrativos e botões de (Comprar Agora).
               </li>
-              <li className="mb-2 pl-6 text-lg">
+              <li className="flex mb-2 text-lg">
+                <Check />
                 Serviços personalizados: Ofereça cookies sob encomenda para
                 eventos, com depoimentos e um cálculo de pedidos fácil.
               </li>
-              <li className="mb-2 pl-6 text-lg">
+              <li className="flex mb-2 text-lg">
+                <Check />
                 Promoções sazonais: Destaque ofertas especiais para datas
                 comemorativas com contagem regressiva e descontos exclusivos.
               </li>
@@ -147,7 +152,7 @@ function App() {
                   </div>
                 </div>
                 <div className="grid font-bold ">
-                  <button className="mt-4 py-px px-2.5 border-2 border-slate-100 rounded-md">
+                  <button className="mt-4 py-px px-2.5 border-2 border-slate-100 rounded-md hover:bg-slate-400">
                     BAIXE GRÁTIS AGORA
                   </button>
                 </div>
@@ -177,21 +182,28 @@ function App() {
               <Img1 />
             </div>
             {/*Aqui fica a terceira parte depois do header*/}
-            <div className="my-0 mx-auto text-white">
-              <h4>O que você vai ver:</h4>
+            <div className="my-0 mx-auto text-white ">
+              <h4 className="mb-4 text-lg">O que você vai ver:</h4>
               <ul>
-                <li>
+                <li className="flex mb-2 text-lg ">
+                  <Check1 />
                   34 Exemplos de Landing Pages para vender cookies irresistíveis
                 </li>
-                <li>Ferramentas para criar Landing Pages de doces eficazes</li>
-                <li>
+                <li className="flex mb-2 text-lg">
+                  <Check1 />
+                  Ferramentas para criar Landing Pages de doces eficazes
+                </li>
+                <li className="flex mb-2 text-lg">
+                  <Check1 />
                   Layout ✔️ Estratégia ✔️ Distribuição ✔️ focados no mundo dos
                   cookies
                 </li>
-                <li>
+                <li className="flex mb-2 text-lg">
+                  <Check1 />
                   Dicas de cores, textos e vídeos para destacar seus produtos
                 </li>
-                <li>
+                <li className="flex mb-2 text-lg">
+                  <Check1 />
                   Modelos de Landing Pages adaptados para varejo, eventos e
                   promoções sazonais!
                 </li>
@@ -200,7 +212,7 @@ function App() {
           </div>
 
           <div className="grid font-bold justify-center -mt-32 mb-8">
-            <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white ">
+            <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white hover:bg-slate-400 ">
               BAIXE GRÁTIS AGORA
             </button>
           </div>
@@ -244,28 +256,28 @@ function App() {
                 <h5 className="font-bold mb-2">
                   Quais são os principais elementos de uma Landing Page?
                 </h5>
-                <p>
+                <p className="mb-2">
                   Os principais elementos que uma Landing Page de cookies deve
                   ter são:
                 </p>
-                <ul className="px-4">
-                  <li>
+                <ul className="px-6">
+                  <li className="list-disc mb-2">
                     Título e subtítulo: Destaque o sabor e a exclusividade dos
                     seus cookies.
                   </li>
-                  <li>
+                  <li className="list-disc mb-2">
                     Imagens: Fotos de alta qualidade que despertem o apetite.
                   </li>
-                  <li>
+                  <li className="list-disc mb-2">
                     Descrição da oferta: Explique o que torna seus cookies
                     únicos (ingredientes, receitas artesanais, opções veganas,
                     etc.).
                   </li>
-                  <li>
+                  <li className="list-disc mb-2">
                     Formulário: Para coleta de informações de clientes
                     interessados.
                   </li>
-                  <li>
+                  <li className="list-disc mb-2">
                     CTA: Botões chamativos como “Compre Agora” ou “Experimente
                     nossos Cookies”.
                   </li>
@@ -279,14 +291,14 @@ function App() {
                   Por que usar nossos exemplos de Landing Pages para vender
                   cookies?
                 </h5>
-                <p>
+                <p className="mb-2">
                   Além de oferecer exemplos adaptáveis para diversos estilos e
                   públicos, nosso material inclui dicas de especialistas sobre:
                 </p>
-                <ul className="px-4">
-                  <li>Combinações de cores que estimulam o apetite.</li>
-                  <li>Posicionamento estratégico de imagens e CTAs.</li>
-                  <li>
+                <ul className="px-6">
+                  <li className="list-disc mb-2">Combinações de cores que estimulam o apetite.</li>
+                  <li className="list-disc mb-2">Posicionamento estratégico de imagens e CTAs.</li>
+                  <li className="list-disc mb-2">
                     Técnicas de copywriting para convencer o cliente a comprar
                     seus cookies.
                   </li>
@@ -325,10 +337,10 @@ function App() {
             </div>
           </div>
           <div className="grid font-bold justify-center mt-10 mb-8">
-              <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-500 rounded-md text-black ">
-                BAIXE GRÁTIS AGORA
-              </button>
-            </div>
+            <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-500 rounded-md text-black hover:bg-slate-400 hover:text-slate-100">
+              BAIXE GRÁTIS AGORA
+            </button>
+          </div>
         </section>
       </main>
       <footer className="flex justify-center p-7 bg-slate-500 text-white">
