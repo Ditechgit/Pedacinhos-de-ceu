@@ -37,7 +37,7 @@ function App() {
         </nav>
       </header>
       <main className="grid grid-cols-1 gap-5 max-w-7xl my-0 mx-auto items-center">
-        <section className="grid grid-cols-2 justify-center bg-gradient-to-r from-slate-500 from-50% rounded-md text-slate-100 ">
+        <section className="grid grid-cols-2 max-md:grid-cols-1 justify-center max-md:bg-slate-500 bg-gradient-to-r from-slate-500 from-50% rounded-md text-slate-100 ">
           <div className="my-8 px-7">
             <p className="mt-4 text-xl">eBook Grátis</p>
             <h1 className="text-4xl">
@@ -49,7 +49,7 @@ function App() {
               finanças
             </p>
             <div className="grid justify-center mt-8 mb-16 p-7 ">
-              <button className="border-2 border-slate-100 rounded-md hover:bg-slate-400">
+              <button className="my-2 mx-auto border-2 border-slate-100 rounded-md hover:bg-slate-400">
                 <a className="block p-2.5 my-2.5 font-bold" href="#">
                   Baixe Grátis o eBook
                 </a>
@@ -64,7 +64,7 @@ function App() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2">
+        <section className="grid grid-cols-2 max-md:grid-cols-1">
           {/*Aqui fica a primeira parte depois do header*/}
           <div className="grid content-center items-end px-7">
             <h2 className="text-4xl mb-2.5 mt-6 break-words">
@@ -152,7 +152,7 @@ function App() {
                   </div>
                 </div>
                 <div className="grid font-bold ">
-                  <button className="mt-4 py-px px-2.5 border-2 border-slate-100 rounded-md hover:bg-slate-400">
+                  <button className="my-2 mx-auto py-px px-2.5 border-2 border-slate-100 rounded-md hover:bg-slate-400">
                     BAIXE GRÁTIS AGORA
                   </button>
                 </div>
@@ -176,7 +176,7 @@ function App() {
         </section>
 
         <section className="">
-          <div className="grid grid-cols-2 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center bg-gradient-to-r from-white to-slate-500 to-50% rounded-md py-28">
+          <div className="grid grid-cols-2 max-md:grid-cols-1 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center  bg-gradient-to-r max-md:from-slate-500 max-md:to-slate-500 from-white to-slate-500 to-50% rounded-md py-28">
             {/*Aqui fica a segunda parte depois do header*/}
             <div className="">
               <Img1 />
@@ -212,7 +212,7 @@ function App() {
           </div>
 
           <div className="grid font-bold justify-center -mt-32 mb-8">
-            <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white hover:bg-slate-400 ">
+            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white hover:bg-slate-400 ">
               BAIXE GRÁTIS AGORA
             </button>
           </div>
@@ -222,7 +222,7 @@ function App() {
           <h2 className="text-4xl mb-20 mt-6 break-words font-bold">
             Duvidas Frequentes:
           </h2>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 max-md:grid-cols-1">
             <div className="grid gap-8 px-7">
               <div className="">
                 <h5 className="font-bold mb-2">O que é uma Landing Page?</h5>
@@ -337,7 +337,7 @@ function App() {
             </div>
           </div>
           <div className="grid font-bold justify-center mt-10 mb-8">
-            <button className="mx-4 my-2 size-full py-px px-2.5 border-2 border-slate-500 rounded-md text-black hover:bg-slate-400 hover:text-slate-100">
+            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-slate-500 rounded-md text-black hover:bg-slate-400 hover:text-slate-100">
               BAIXE GRÁTIS AGORA
             </button>
           </div>
