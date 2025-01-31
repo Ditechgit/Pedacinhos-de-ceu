@@ -6,7 +6,7 @@ import Check1 from "./components/Check1";
 
 function App() {
   return (
-    <div className="m-0 p-0 box-border list-none">
+    <div className="m-0 p-0 box-border list-none font-serif">
       <header className="flex justify-around items-center flex-wrap p-5">
         <div>
           <Logo />
@@ -37,7 +37,7 @@ function App() {
         </nav>
       </header>
       <main className="grid grid-cols-1 gap-5 max-w-7xl my-0 mx-auto items-center">
-        <section className="grid grid-cols-2 max-md:grid-cols-1 justify-center max-md:bg-slate-500 bg-gradient-to-r from-slate-500 from-50% rounded-md text-slate-100 ">
+        <section className="grid grid-cols-2 max-md:grid-cols-1 justify-center max-md:bg-orange-200 bg-gradient-to-r from-orange-200 from-50% rounded-md text-slate-800 ">
           <div className="my-8 px-7">
             <p className="mt-4 text-xl">eBook Grátis</p>
             <h1 className="text-4xl">
@@ -49,7 +49,7 @@ function App() {
               finanças
             </p>
             <div className="grid justify-center mt-8 mb-16 p-7 ">
-              <button className="my-2 mx-auto border-2 border-slate-100 rounded-md hover:bg-slate-400">
+              <button className="my-2 mx-auto border-2 border-orange-300 rounded-md hover:bg-orange-300">
                 <a className="block p-2.5 my-2.5 font-bold" href="#">
                   Baixe Grátis o eBook
                 </a>
@@ -64,7 +64,7 @@ function App() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 max-md:grid-cols-1">
+        <section className="grid grid-cols-2 px-7 max-md:grid-cols-1">
           {/*Aqui fica a primeira parte depois do header*/}
           <div className="grid content-center items-end px-7">
             <h2 className="text-4xl mb-2.5 mt-6 break-words">
@@ -90,7 +90,7 @@ function App() {
             </ul>
           </div>
 
-          <div className="grid border my-0 mx-auto p-7 mt-12 mb-12 max-w-md self-center bg-slate-500 rounded-md text-slate-100">
+          <div className="grid border my-0 mx-auto p-7 mt-12 mb-12 max-w-md self-center bg-orange-200 rounded-md text-slate-800">
             <div>
               <h3 className="text-2xl font-bold">
                 Seu acesso é grátis e rápido!
@@ -152,7 +152,7 @@ function App() {
                   </div>
                 </div>
                 <div className="grid font-bold ">
-                  <button className="my-2 mx-auto py-px px-2.5 border-2 border-slate-100 rounded-md hover:bg-slate-400">
+                  <button className="my-2 mx-auto py-px px-2.5 border-2 border-orange-300 rounded-md hover:bg-orange-300">
                     BAIXE GRÁTIS AGORA
                   </button>
                 </div>
@@ -176,13 +176,13 @@ function App() {
         </section>
 
         <section className="">
-          <div className="grid grid-cols-2 max-md:grid-cols-1 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center  bg-gradient-to-r max-md:from-slate-500 max-md:to-slate-500 from-white to-slate-500 to-50% rounded-md py-28">
+          <div className="grid grid-cols-2 max-md:grid-cols-1 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center  bg-gradient-to-r max-md:from-orange-200 max-md:to-orange-200 from-white to-orange-200 to-50% rounded-md py-28">
             {/*Aqui fica a segunda parte depois do header*/}
             <div className="">
               <Img1 />
             </div>
             {/*Aqui fica a terceira parte depois do header*/}
-            <div className="my-0 mx-auto text-white ">
+            <div className="my-0 mx-auto text-slate-800 ">
               <h4 className="mb-4 text-lg">O que você vai ver:</h4>
               <ul>
                 <li className="flex mb-2 text-lg ">
@@ -212,7 +212,7 @@ function App() {
           </div>
 
           <div className="grid font-bold justify-center -mt-32 mb-8">
-            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-slate-100 rounded-md text-white hover:bg-slate-400 ">
+            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-orange-300 rounded-md text-slate-800 hover:bg-orange-300 ">
               BAIXE GRÁTIS AGORA
             </button>
           </div>
@@ -337,13 +337,13 @@ function App() {
             </div>
           </div>
           <div className="grid font-bold justify-center mt-10 mb-8">
-            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-slate-500 rounded-md text-black hover:bg-slate-400 hover:text-slate-100">
+            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-orange-300 rounded-md text-slate-800 hover:bg-orange-300 ">
               BAIXE GRÁTIS AGORA
             </button>
           </div>
         </section>
       </main>
-      <footer className="flex justify-center p-7 bg-slate-500 text-white">
+      <footer className="flex justify-center p-7 bg-orange-200 text-slate-800">
         <h4>
           Copyright &copy; 2025 Pedacinhos de Céu - Política de Privacidade
         </h4>
