@@ -6,6 +6,9 @@ export default {
       flex: {
         200: "1 1 200px",
       },
+      backgroundImage: {
+        'hero-pattern': "url('./assets/background-image.png')",
+      }
     },
   },
   plugins: [],

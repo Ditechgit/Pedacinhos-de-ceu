@@ -6,29 +6,29 @@ import Check1 from "./components/Check1";
 
 function App() {
   return (
-    <div className="m-0 p-0 box-border list-none font-serif">
+    <div className="m-0 p-0 box-border list-none font-serif bg-[url('./assets/background-image.png')] bg-cover ">
       <header className="flex justify-around items-center flex-wrap p-5">
         <div>
           <Logo />
         </div>
         <nav>
-          <ul className="flex ">
-            <li className="ml-2.5">
+          <ul className="flex text-orange-200">
+            <li className="ml-2.5 hover:text-orange-300">
               <a className="block p-2.5" href="#">
                 Home
               </a>
             </li>
-            <li className="ml-2.5">
+            <li className="ml-2.5 hover:text-orange-300">
               <a className="block p-2.5" href="#">
                 Serviços
               </a>
             </li>
-            <li className="ml-2.5">
+            <li className="ml-2.5 hover:text-orange-300">
               <a className="block p-2.5" href="#">
                 Sobre
               </a>
             </li>
-            <li className="ml-2.5">
+            <li className="ml-2.5 hover:text-orange-300">
               <a className="block p-2.5" href="#">
                 Contato
               </a>
@@ -51,7 +51,7 @@ function App() {
             <div className="grid justify-center mt-8 mb-16 p-7 ">
               <button className="my-2 mx-auto border-2 border-orange-300 rounded-md hover:bg-orange-300">
                 <a className="block p-2.5 my-2.5 font-bold" href="#">
-                  Baixe Grátis o eBook
+                  BAIXE GRÁTIS O E-BOOK
                 </a>
               </button>
               <p className="mt-4">
@@ -66,7 +66,7 @@ function App() {
 
         <section className="grid grid-cols-2 px-7 max-md:grid-cols-1">
           {/*Aqui fica a primeira parte depois do header*/}
-          <div className="grid content-center items-end px-7">
+          <div className="grid content-center items-end px-7 text-orange-100">
             <h2 className="text-4xl mb-2.5 mt-6 break-words">
               Exemplos de Landing Pages para impulsionar sua estratégia com
               cookies irresistíveis:
@@ -96,7 +96,7 @@ function App() {
                 Seu acesso é grátis e rápido!
               </h3>
             </div>
-            <div>
+            <div className="mb-4">
               <p>Preencha em segundos</p>
             </div>
             <div>
@@ -176,7 +176,7 @@ function App() {
         </section>
 
         <section className="">
-          <div className="grid grid-cols-2 max-md:grid-cols-1 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center  bg-gradient-to-r max-md:from-orange-200 max-md:to-orange-200 from-white to-orange-200 to-50% rounded-md py-28">
+          <div className="grid grid-cols-2 max-md:grid-cols-1 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center  bg-gradient-to-r max-md:from-orange-200 max-md:to-orange-200 from-transparent to-orange-200 to-50% rounded-md py-28">
             {/*Aqui fica a segunda parte depois do header*/}
             <div className="">
               <Img1 />
@@ -218,7 +218,7 @@ function App() {
           </div>
         </section>
 
-        <section className="flex flex-col items-center mb-28 px-7">
+        <section className="flex flex-col items-center mb-28 px-7 text-orange-100">
           <h2 className="text-4xl mb-20 mt-6 break-words font-bold">
             Duvidas Frequentes:
           </h2>
@@ -337,7 +337,7 @@ function App() {
             </div>
           </div>
           <div className="grid font-bold justify-center mt-10 mb-8">
-            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-orange-300 rounded-md text-slate-800 hover:bg-orange-300 ">
+            <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-orange-300 rounded-md text-orange-100 hover:bg-orange-300 ">
               BAIXE GRÁTIS AGORA
             </button>
           </div>
