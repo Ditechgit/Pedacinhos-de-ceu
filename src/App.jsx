@@ -1,41 +1,14 @@
 import Cookie from "./components/Cookie";
 import Img1 from "./components/Img1";
-import Logo from "./components/Logo";
 import Check from "./components/Check";
 import Check1 from "./components/Check1";
+import Header from "./components/Header";
+
 
 function App() {
   return (
     <div className="m-0 p-0 box-border list-none font-serif bg-[url('./assets/background-image.png')] bg-cover ">
-      <header className="flex justify-around items-center flex-wrap p-5">
-        <div>
-          <Logo />
-        </div>
-        <nav>
-          <ul className="flex text-orange-200">
-            <li className="ml-2.5 hover:text-orange-300">
-              <a className="block p-2.5" href="#">
-                Home
-              </a>
-            </li>
-            <li className="ml-2.5 hover:text-orange-300">
-              <a className="block p-2.5" href="#">
-                Serviços
-              </a>
-            </li>
-            <li className="ml-2.5 hover:text-orange-300">
-              <a className="block p-2.5" href="#">
-                Sobre
-              </a>
-            </li>
-            <li className="ml-2.5 hover:text-orange-300">
-              <a className="block p-2.5" href="#">
-                Contato
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main className="grid grid-cols-1 gap-5 max-w-7xl my-0 mx-auto items-center">
         <section className="grid grid-cols-2 max-md:grid-cols-1 justify-center max-md:bg-orange-200 bg-gradient-to-r from-orange-200 from-50% rounded-md text-slate-800 ">
           <div className="my-8 px-7">
