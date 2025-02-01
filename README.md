@@ -1,4 +1,5 @@
-Este projeto tem como intuito, mostrar meu entendimento sobre React.js, criação sobre components, utilização de hooks (useState e useEffect), grid-box em conjunto com flex-box, responsividade entre telas.
+Este projeto tem como intuito, mostrar meu entendimento sobre React.js e Tailwind.css, criação sobre components, grid-box em conjunto com flex-box, responsividade entre telas.
+Sobre a utilização de hooks (useState e useEffect), tentei ver uma forma para encaixa-los no projeto mas no final optei em nao utiliza-los pois não tinha o porque (na minha percepção).
 
 Tecnologias usadas:
 
