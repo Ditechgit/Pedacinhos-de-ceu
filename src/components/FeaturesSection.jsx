@@ -1,5 +1,5 @@
-import Img1 from './Img1'; 
-import Check1 from './Check1'; 
+import Img1 from "./Img1";
+import Check1 from "./Check1";
 
 const FeaturesSection = () => {
   return (
@@ -24,7 +24,8 @@ const FeaturesSection = () => {
             </li>
             <li className="flex mb-2 text-lg">
               <Check1 />
-              Layout ✔️ Estratégia ✔️ Distribuição ✔️ focados no mundo dos cookies
+              Layout ✔️ Estratégia ✔️ Distribuição ✔️ focados no mundo dos
+              cookies
             </li>
             <li className="flex mb-2 text-lg">
               <Check1 />
@@ -32,7 +33,8 @@ const FeaturesSection = () => {
             </li>
             <li className="flex mb-2 text-lg">
               <Check1 />
-              Modelos de Landing Pages adaptados para varejo, eventos e promoções sazonais!
+              Modelos de Landing Pages adaptados para varejo, eventos e
+              promoções sazonais!
             </li>
           </ul>
         </div>
@@ -41,7 +43,9 @@ const FeaturesSection = () => {
       {/* Botão de ação */}
       <div className="grid font-bold justify-center -mt-32 mb-8">
         <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-orange-300 rounded-md text-slate-800 hover:bg-orange-300">
-          BAIXE GRÁTIS AGORA
+          <a href="../public/documento.pdf" download>
+            BAIXE GRÁTIS AGORA
+          </a>
         </button>
       </div>
     </section>

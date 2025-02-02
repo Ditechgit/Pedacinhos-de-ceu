@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Logo from "./Logo";
+import bar from "../assets/bar.svg";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false); // Estado para controlar a visibilidade do menu
@@ -16,7 +17,7 @@ const Sidebar = () => {
         onClick={toggleMenu}
         className="md:hidden fixed top-4 right-4 p-2 bg-orange-300 rounded-md z-50 shadow-lg"
       >
-        ☰
+        <img src={bar} alt="Logotype project" className="size-8"/>
       </button>
 
       {/* Menu Lateral (agora à direita) */}

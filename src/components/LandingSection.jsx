@@ -1,5 +1,4 @@
-
-import Check from './Check'; // Certifique-se de importar o componente Check
+import Check from "./Check"; // Certifique-se de importar o componente Check
 
 const LandingSection = () => {
   return (
@@ -7,20 +6,24 @@ const LandingSection = () => {
       {/* Primeira parte: Descrição */}
       <div className="grid content-center items-end px-7 text-orange-100">
         <h2 className="text-4xl mb-2.5 mt-6 break-words">
-          Exemplos de Landing Pages para impulsionar sua estratégia com cookies irresistíveis:
+          Exemplos de Landing Pages para impulsionar sua estratégia com cookies
+          irresistíveis:
         </h2>
         <ul className="mb-14 break-words mt-8">
           <li className="flex mb-2 text-lg">
             <Check />
-            Varejo: Mostre uma seleção irresistível de cookies com fotos tentadoras, preços atrativos e botões de (Comprar Agora).
+            Varejo: Mostre uma seleção irresistível de cookies com fotos
+            tentadoras, preços atrativos e botões de (Comprar Agora).
           </li>
           <li className="flex mb-2 text-lg">
             <Check />
-            Serviços personalizados: Ofereça cookies sob encomenda para eventos, com depoimentos e um cálculo de pedidos fácil.
+            Serviços personalizados: Ofereça cookies sob encomenda para eventos,
+            com depoimentos e um cálculo de pedidos fácil.
           </li>
           <li className="flex mb-2 text-lg">
             <Check />
-            Promoções sazonais: Destaque ofertas especiais para datas comemorativas com contagem regressiva e descontos exclusivos.
+            Promoções sazonais: Destaque ofertas especiais para datas
+            comemorativas com contagem regressiva e descontos exclusivos.
           </li>
         </ul>
       </div>
@@ -87,14 +90,17 @@ const LandingSection = () => {
             </div>
             <div className="grid font-bold">
               <button className="my-2 mx-auto py-px px-2.5 border-2 border-orange-300 rounded-md hover:bg-orange-300">
-                BAIXE GRÁTIS AGORA
+                <a href="../public/documento.pdf" download>
+                  BAIXE GRÁTIS AGORA
+                </a>
               </button>
             </div>
           </form>
         </div>
         <div className="my-2.5">
           <p className="text-sm mt-2">
-            Ao preencher o formulário, concordo * em receber comunicações de acordo com meus interesses.
+            Ao preencher o formulário, concordo * em receber comunicações de
+            acordo com meus interesses.
           </p>
           <p className="text-sm mt-2">
             Ao informar meus dados, eu concordo com a Política de privacidade.
