@@ -14,7 +14,7 @@ const MainSection = () => {
         </p>
         <div className="grid justify-center mt-8 mb-16 p-7">
           <button className="my-2 mx-auto border-2 border-orange-300 rounded-md hover:bg-orange-300">
-            <a className="block p-2.5 my-2.5 font-bold" href="../public/documento.pdf"
+            <a className="block p-2.5 my-2.5 font-bold" href="/documento.pdf"
                 download="documento.pdf"
                 type="application/pdf"
                 target="_blank">
