@@ -44,9 +44,9 @@ const FeaturesSection = () => {
       <div className="grid font-bold justify-center -mt-32 mb-8">
         <button className="my-2 mx-auto size-full py-px px-2.5 border-2 border-orange-300 rounded-md text-slate-800 hover:bg-orange-300">
           <a
-            href="/documento.pdf"
-            download="documento.pdf"
-            type="application/pdf"
+            href="/documento.png"
+            download="documento.png"
+            type="application/png"
             target="_blank"
           >
             BAIXE GRÁTIS AGORA
