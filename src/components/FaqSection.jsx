@@ -2,7 +2,7 @@ import ListItem from "./ListItem";
 
 const FaqSection = () => {
   return (
-    <section className="flex flex-col items-center mb-28 px-7 text-orange-100">
+    <section id="FaqSection" className="flex flex-col items-center mb-28 px-7 text-orange-100">
       <h2 className="text-4xl mb-20 mt-6 break-words font-bold">
         Duvidas Frequentes:
       </h2>

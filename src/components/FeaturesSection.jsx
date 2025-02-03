@@ -3,7 +3,7 @@ import Check1 from "./Check1";
 
 const FeaturesSection = () => {
   return (
-    <section>
+    <section id="FeaturesSection">
       <div className="grid grid-cols-2 max-md:grid-cols-1 items-center my-0 mx-auto p-7 mt-12 mb-12 max-w-max self-center bg-gradient-to-r max-md:from-orange-200 max-md:to-orange-200 from-transparent to-orange-200 to-50% rounded-md py-28">
         {/* Parte da imagem */}
         <div>

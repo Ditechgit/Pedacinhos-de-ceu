@@ -2,7 +2,7 @@ import Cookie from './Cookie'; // Certifique-se de importar o componente Cookie
 
 const MainSection = () => {
   return (
-    <section className="grid grid-cols-2 max-md:grid-cols-1 justify-center max-md:bg-orange-200 bg-gradient-to-r from-orange-200 from-50% rounded-md text-slate-800">
+    <section id="MainSection" className="grid grid-cols-2 max-md:grid-cols-1 justify-center max-md:bg-orange-200 bg-gradient-to-r from-orange-200 from-50% rounded-md text-slate-800">
       <div className="my-8 px-7">
         <p className="mt-4 text-xl">eBook Grátis</p>
         <h1 className="text-4xl">

@@ -2,7 +2,7 @@ import Check from "./Check"; // Certifique-se de importar o componente Check
 
 const LandingSection = () => {
   return (
-    <section className="grid grid-cols-2 px-7 max-md:grid-cols-1">
+    <section id="LandingSection" className="grid grid-cols-2 px-7 max-md:grid-cols-1">
       {/* Primeira parte: Descrição */}
       <div className="grid content-center items-end px-7 text-orange-100">
         <h2 className="text-4xl mb-2.5 mt-6 break-words">
