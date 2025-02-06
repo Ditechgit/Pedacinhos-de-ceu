@@ -10,6 +10,23 @@ const Sidebar = () => {
     setIsOpen(!isOpen);
   };
 
+  // Função para rolar até a seção específica
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false); // Fecha o menu após clicar em um item (opcional)
+    }
+  };
+
+  // Array de objetos com os itens do menu
+  const menuItems = [
+    { name: "Home", sectionId: "MainSection" },
+    { name: "Serviços", sectionId: "LandingSection" },
+    { name: "Sobre", sectionId: "FeaturesSection" },
+    { name: "Dúvidas", sectionId: "FaqSection" },
+  ];
+
   return (
     <div className="hidden max-md:flex shadow-lg">
       {/* Botão para abrir/fechar o menu (visível apenas em telas pequenas) */}
@@ -17,7 +34,7 @@ const Sidebar = () => {
         onClick={toggleMenu}
         className="md:hidden fixed top-4 right-4 p-2 bg-orange-300 rounded-md z-50 shadow-lg"
       >
-        <img src={bar} alt="Logotype project" className="size-8"/>
+        <img src={bar} alt="Logotype project" className="size-8" />
       </button>
 
       {/* Menu Lateral (agora à direita) */}
@@ -29,26 +46,17 @@ const Sidebar = () => {
         <div className="p-4">
           <Logo />
           <ul>
-            <li className="mb-2">
-              <a href="#" className="block p-2 hover:bg-orange-300 rounded-md">
-                Home
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="block p-2 hover:bg-orange-300 rounded-md">
-                Serviços
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="block p-2 hover:bg-orange-300 rounded-md">
-                Sobre
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#" className="block p-2 hover:bg-orange-300 rounded-md">
-                Dúvidas
-              </a>
-            </li>
+            {menuItems.map((item, index) => (
+              <li key={index} className="mb-2">
+                <a
+                  href={`#${item.sectionId}`}
+                  onClick={() => scrollToSection(item.sectionId)}
+                  className="block p-2 hover:bg-orange-300 rounded-md"
+                >
+                  {item.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
